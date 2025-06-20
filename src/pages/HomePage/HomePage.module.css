@@ -1,0 +1,13 @@
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+  }
+  
+  .title {
+    color: #00704a;
+    font-size: 2em;
+  }
+  

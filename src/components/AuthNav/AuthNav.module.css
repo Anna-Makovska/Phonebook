@@ -1,0 +1,22 @@
+.authNavContainer {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .authNavLink {
+    color: #00704a;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .authNavLink:hover {
+    color: #00a86b;
+  }
+  
+  .authNavLink.active {
+    color: #00a86b;
+    text-decoration: underline;
+  }
+  
+

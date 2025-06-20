@@ -1,0 +1,12 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .title {
+    color: #00704a;
+    margin-bottom: 20px;
+  }
+  

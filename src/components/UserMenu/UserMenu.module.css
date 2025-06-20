@@ -1,0 +1,13 @@
+.userMenuContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .welcomeText {
+    font-weight: bold;
+    color: #00704a;
+  }
+  
+
+

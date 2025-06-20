@@ -1,15 +1,16 @@
-import s from './App.module.css'
 import { IoPerson } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { useDispatch, useSelector} from 'react-redux';
-import { fetchContacts } from './redux/contactsOps';
-import ContactList from "./components/ContactList/ContactList";
-import SearchBox from './components/SearchBox/SearchBox';
-import ContactForm from './components/ContactForm/ContactForm';
+import { fetchContacts } from '../../redux/contacts/operations';
+import ContactList from "../../components/ContactList/ContactList";
+import SearchBox from '../../components/SearchBox/SearchBox';
+import ContactForm from '../../components/ContactForm/ContactForm';
 import { useEffect } from 'react';
-import {selectIsLoading, selectError} from './redux/contactsSlice'
+import { selectIsLoading, selectError } from '../../redux/contacts/selectors'
+import s from "./ContactsPage.module.css"
 
-function App() {
+
+const ContactsPage = () => {
   const icons = [<IoPerson />, <FaPhoneAlt />];
   const dispatch = useDispatch();
   const isLoading = useSelector(selectIsLoading);
@@ -38,4 +39,4 @@ dispatch(fetchContacts())
   );
 }
 
-export default App
+export default ContactsPage
