@@ -40,9 +40,9 @@ body {
     box-sizing: border-box;
   }
 
-  .appContainer {
-    background-color: #fff;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
+.appContainer {
+  background-color: #f5fafa;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 40px 200px;
+}

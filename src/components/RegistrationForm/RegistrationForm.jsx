@@ -18,28 +18,28 @@ const RegistrationForm = () => {
   
     return (
       <Formik
-            initialValues={{
-                name: '',
-                email: '',
-            password: '',
-            }}
-            onSubmit={handleRegister}
+        initialValues={{
+          name: '',
+          email: '',
+          password: '',
+        }}
+        onSubmit={handleRegister}
         // validationSchema={ContactSchema}
       >
         <Form className={s.form}>
           <div className={s.wrapper}>
-            <label htmlFor={`${fieldId}-username`} className={s.label}>
+            <label htmlFor={`${fieldId}-name`} className={s.label}>
               Name
             </label>
             <Field
               className={s.inputUp}
               type='text'
-              name='username'
-              id={`${fieldId}-username`}
+              name='name'
+              id={`${fieldId}-name`}
             ></Field>
 
             <ErrorMessage
-              name='username'
+              name='name'
               component='span'
               className={s.error}
               style={{ display: 'block', color: 'red', marginBottom: '10px' }}
@@ -73,6 +73,7 @@ const RegistrationForm = () => {
               type='password'
               name='password'
               id={`${fieldId}-password`}
+              autoComplete='current-password'
             ></Field>
             <ErrorMessage
               className={s.error}

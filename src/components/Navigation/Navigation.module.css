@@ -1,21 +1,23 @@
 .nav {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .navLink {
-    color: #00704a;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  .navLink:hover {
-    color: #00a86b;
-  }
-  
-  .navLink.active {
-    color: #00a86b;
-    text-decoration: underline;
-  }
-  
+  display: flex;
+  gap: 20px;
+}
+
+.navLink {
+  color: #00704a;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  padding: 10px 15px; 
+  border-radius: 5px; 
+}
+
+.navLink:hover {
+  color: #00a86b;
+  background-color: #f0f5f3; 
+}
+
+.navLink.active {
+  color: #00a86b;
+  text-decoration: underline;
+}

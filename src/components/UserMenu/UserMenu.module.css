@@ -1,13 +1,30 @@
 .userMenuContainer {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .welcomeText {
-    font-weight: bold;
-    color: #00704a;
-  }
-  
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
+.welcomeText {
+  font-weight: bold;
+  color: #00704a;
+  transition: color 0.3s ease; 
+}
 
+.welcomeText:hover {
+  color: #00a86b; 
+}
+
+.logoutButton {
+  background-color: #00a86b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.logoutButton:hover {
+  background-color: #00704a;
+  transform: scale(1.05); 
+}

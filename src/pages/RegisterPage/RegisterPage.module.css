@@ -1,12 +1,31 @@
 .pageContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .title {
-    color: #00704a;
-    margin-bottom: 20px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5fafa;
+  width: 100%;
+  padding-top: 50px;
+}
+
+
+.formWrapper {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 90%;
+  transition: transform 0.3s ease; 
+}
+
+.formWrapper:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.title {
+  color: #00704a;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+}
