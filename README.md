@@ -1,13 +1,6 @@
 # 📒 Phonebook App
 
-A modern contact manager app built with React, Redux Toolkit, and responsive design. Add, delete, and filter your contacts securely using a remote REST API.
-
-![Preview](./screenshot-desktop.png)
-
-## 🔗 Live Demo
-
-👉 [Check it on Netlify](https://your-live-link.netlify.app) <!-- додай сюди свій live demo! -->
-
+A modern contact manager app built with React and Redux Toolkit. Add, delete, and filter your contacts securely using a remote REST API.
 
 
 ## ⚙️ Features
@@ -37,18 +30,6 @@ A modern contact manager app built with React, Redux Toolkit, and responsive des
 
 - External REST API hosted on Heroku  
   (used for authentication & contacts storage)
-
-
-
-## 🖼️ Screenshots
-
-### 💻 Desktop
-
-![Desktop](./screenshot-desktop.png)
-
-### 📱 Mobile
-
-![Mobile](./screenshot-mobile.png)
 
 
 
