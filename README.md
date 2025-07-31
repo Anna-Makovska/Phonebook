@@ -1,12 +1,66 @@
-# React + Vite
+# 📒 Phonebook App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern contact manager app built with React, Redux Toolkit, and responsive design. Add, delete, and filter your contacts securely using a remote REST API.
 
-Currently, two official plugins are available:
+![Preview](./screenshot-desktop.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+👉 [Check it on Netlify](https://your-live-link.netlify.app) <!-- додай сюди свій live demo! -->
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## ⚙️ Features
+
+- 🔐 User Registration & Login (email/password)
+- 📇 Add / Delete / Filter contacts
+- 🔍 Real-time search by name
+- 🔁 Persistent storage via REST API
+- 🌙 Light/Dark mode toggle (optional)
+- 📱 Responsive design for mobile & desktop
+
+
+
+## 🛠️ Technologies Used
+
+**Frontend Stack:**
+
+- React (Hooks, JSX)
+- Redux Toolkit & Redux Persist
+- React Router
+- Axios for HTTP requests
+- Formik + Yup (form validation)
+- Styled Components
+- Toastify (notifications)
+
+**API:**
+
+- External REST API hosted on Heroku  
+  (used for authentication & contacts storage)
+
+
+
+## 🖼️ Screenshots
+
+### 💻 Desktop
+
+![Desktop](./screenshot-desktop.png)
+
+### 📱 Mobile
+
+![Mobile](./screenshot-mobile.png)
+
+
+
+## 🧠 What I Learned
+
+- State management with Redux Toolkit  
+- Form handling with Formik & Yup  
+- Working with async requests via Axios  
+- Protected routing and route guards  
+- UI components with Styled Components  
+- Collaborating with backend via REST API
+
+
+
+
