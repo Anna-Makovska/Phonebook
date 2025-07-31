@@ -1,5 +1,10 @@
 # 📒 Phonebook App
 
+![React](https://img.shields.io/badge/React-2023-blue)
+![Redux Toolkit](https://img.shields.io/badge/Redux--Toolkit-used-success)
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-black)
+
+
 A modern contact manager app built with React and Redux Toolkit. Add, delete, and filter your contacts securely using a remote REST API.
 
 
