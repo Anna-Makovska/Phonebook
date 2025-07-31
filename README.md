@@ -14,9 +14,6 @@ A modern contact manager app built with React and Redux Toolkit. Add, delete, an
 - 📇 Add / Delete / Filter contacts
 - 🔍 Real-time search by name
 - 🔁 Persistent storage via REST API
-- 🌙 Light/Dark mode toggle (optional)
-- 📱 Responsive design for mobile & desktop
-
 
 
 ## 🛠️ Technologies Used
